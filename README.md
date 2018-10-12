@@ -9,9 +9,9 @@ CI & CD : jinken
 Cluster : kubernete 
 
 ## 目錄
-1. [系統環境 與 Package 安裝](#real-cool-heading))
+1. [系統環境 與 Package 安裝](#real-cool-heading)
 2. 編寫 flask 網頁
-3. 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 版本控制
+3. 啟用 [GIT](#real-cool-heading)("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 版本控制
 ## Package
 * [Flask](http://flask.pocoo.org) : WebFramework
 * [Jinja2](http://jinja.pocoo.org/docs/dev/templates)
@@ -62,8 +62,8 @@ if __name__ == "__main__":
 <img src="static/readme/HelloWorld.png" width="500">
 
 </pre>
-#real-cool-heading
-3. 啟用 GIT 版本控制
+
+3. [啟用 GIT 版本控制](#real-cool-heading)
 ```
 a. 依照git 網頁上 的進行
 b. 記得先加入 .gitignore 避免將所有的檔案上傳
