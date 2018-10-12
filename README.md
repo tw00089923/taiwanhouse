@@ -49,8 +49,8 @@ if __name__ == "__main__":
 '''
 # 很容易在本地開啟網頁
 
-<img src="static/readme/startFlask.png" width="300" height="300">
-<img src="static/readme/HelloWorld.png" width="300" height="300">
+<img src="static/readme/startFlask.png" width="500">
+<img src="static/readme/HelloWorld.png" width="500">
 
 </pre>
 
