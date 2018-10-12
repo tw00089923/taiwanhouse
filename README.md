@@ -11,7 +11,7 @@ Cluster : kubernete
 ### 目錄
 1. [系統環境 與 Package](#1-系統環境與package安裝)
 2. [編寫 flask 網頁](#2-編寫flask網頁)
-3. [啟用GIT](#3-啟用GIT版本控制)
+3. [啟用GIT](#3-啟用git版本控制)
 ### Package
 * [Flask](http://flask.pocoo.org) : WebFramework
 * [Jinja2](http://jinja.pocoo.org/docs/dev/templates)
