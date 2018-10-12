@@ -56,8 +56,8 @@ if __name__ == "__main__":
 </pre>
 
 3. 啟用 GIT 版本控制
-a. 依照git 網頁上 的進行
-b. 記得先加入 .gitignore 避免將所有的檔案上傳
+#### a. 依照git 網頁上 的進行
+#### b. 記得先加入 .gitignore 避免將所有的檔案上傳
 <pre>
 > $ git init
 > $ git add README.md
