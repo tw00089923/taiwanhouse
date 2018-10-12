@@ -9,9 +9,9 @@ CI & CD : jinken
 Cluster : kubernete 
 ```
 ### 目錄
-1. [系統環境 與 Package 安裝](#1)
-2. 編寫 flask 網頁
-3. 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") [版本控制](#2)
+[1.](#1) 系統環境 與 Package 安裝
+[2.](#2) 編寫 flask 網頁
+[3.](#3) 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 
 ### Package
 * [Flask](http://flask.pocoo.org) : WebFramework
 * [Jinja2](http://jinja.pocoo.org/docs/dev/templates)
