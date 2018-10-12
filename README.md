@@ -3,7 +3,7 @@ Source
 ## 目錄
 1. 系統環境 與 Package 安裝
 2. 編寫 flask 網頁
-3. 啟用 GIT 版本控制
+3. 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 版本控制
 ## Package
 * [Flask](http://flask.pocoo.org)
 * [Jinja2](http://jinja.pocoo.org/docs/dev/templates)
@@ -48,8 +48,9 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0",port=8080)
 '''
 # 很容易在本地開啟網頁
-<img src="static/readme/startFlask.png" width="200">
-<img src="static/readme/HelloWorld.png" width="200">
+
+<img src="static/readme/startFlask.png" width="300" height="300">
+<img src="static/readme/HelloWorld.png" width="300" height="300">
 
 </pre>
 
@@ -64,3 +65,7 @@ b. 記得先加入 .gitignore 避免將所有的檔案上傳
 > $ git push -u origin master
 C. 
 </pre>
+
+
+
+
