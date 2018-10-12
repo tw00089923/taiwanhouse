@@ -9,9 +9,9 @@ CI & CD : jinken
 Cluster : kubernete 
 ```
 ### 目錄
-[1.](#1) 系統環境 與 Package 安裝
-[2.](#2) 編寫 flask 網頁
-[3.](#3) 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 
+1. 系統環境 與 Package [安裝](#1-系統環境)
+2. 編寫 flask 網頁
+3. 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 
 ### Package
 * [Flask](http://flask.pocoo.org) : WebFramework
 * [Jinja2](http://jinja.pocoo.org/docs/dev/templates)
@@ -35,7 +35,7 @@ Cluster : kubernete
 # 紀錄插件版本
 > $ pip freeze > requirements.txt
 </pre>
-### 2. 編寫flask網頁 [目錄](#目錄)
+### 2 編寫flask網頁 [目錄](#目錄)
 <pre>
 # 使用 官方 flask 教程
 > $ touch app.py
