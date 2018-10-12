@@ -1,5 +1,5 @@
 ### Taiwan 房價實價登錄 網站
-Source
+[Source]("http://lvr.land.moi.gov.tw/homePage.action")
 ## 目錄
 1. 系統環境 與 Package 安裝
 2. 編寫 flask 網頁
@@ -47,9 +47,10 @@ def hello():
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=8080)
 '''
-# 很容易在本地開啟網頁
 
+# 輸入指令 python run.py
 <img src="static/readme/startFlask.png" width="500">
+# 本地開啟網頁
 <img src="static/readme/HelloWorld.png" width="500">
 
 </pre>
@@ -63,7 +64,7 @@ b. 記得先加入 .gitignore 避免將所有的檔案上傳
 > $ git commit -m "Flask init"
 > $ git remote add origin https://github.com/tw00089923/taiwanhouseprice.git
 > $ git push -u origin master
-C. 
+
 </pre>
 
 
