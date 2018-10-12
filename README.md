@@ -1,13 +1,13 @@
 ### Taiwan 房價實價登錄 網站
 [Source]("http://lvr.land.moi.gov.tw/homePage.action")
-
+```
 後端語言: Python 3.7
 手機框架 : Flutter
 網頁框架: Flask 
 資料庫 : MySQL 
 CI & CD : jinken 
 Cluster : kubernete 
-
+```
 ## 目錄
 1. [系統環境 與 Package 安裝](#real-cool-heading)
 2. 編寫 flask 網頁
@@ -36,9 +36,7 @@ Cluster : kubernete
 # 紀錄插件版本
 > $ pip freeze > requirements.txt
 </pre>
-
 2. 編寫 flask 網頁
-
 <pre>
 # 使用 官方 flask 教程
 > $ touch app.py
@@ -63,7 +61,7 @@ if __name__ == "__main__":
 
 </pre>
 
-3. [啟用 GIT 版本控制](#real-cool-heading)
+3. [啟用 GIT 版本控制](#Real-cool-heading)
 ```
 a. 依照git 網頁上 的進行
 b. 記得先加入 .gitignore 避免將所有的檔案上傳
