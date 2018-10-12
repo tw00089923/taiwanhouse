@@ -10,8 +10,8 @@ Cluster : kubernete
 ```
 ### 目錄
 1. [系統環境 與 Package](#1-系統環境與package安裝)
-2. 編寫 flask 網頁
-3. 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 
+2. [編寫 flask 網頁](#2-編寫flask網頁)
+3. [啟用GIT](#3-啟用GIT版本控制)
 ### Package
 * [Flask](http://flask.pocoo.org) : WebFramework
 * [Jinja2](http://jinja.pocoo.org/docs/dev/templates)
@@ -35,7 +35,7 @@ Cluster : kubernete
 # 紀錄插件版本
 > $ pip freeze > requirements.txt
 </pre>
-### 2 編寫flask網頁 [目錄](#目錄)
+### 2. 編寫flask網頁
 <pre>
 # 使用 官方 flask 教程
 > $ touch app.py
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 <img src="static/readme/HelloWorld.png" width="500">
 
 </pre>
-### 3. 啟用 GIT 版本控制 [目錄](#目錄)
+### 3. 啟用GIT版本控制
 ```
 a. 依照git 網頁上 的進行
 b. 記得先加入 .gitignore 避免將所有的檔案上傳
