@@ -59,7 +59,7 @@ if __name__ == "__main__":
 <img src="static/readme/HelloWorld.png" width="500">
 
 </pre>
-## Real-cool-heading 3. [啟用 GIT 版本控制](#Real-cool-heading)
+### 3. 啟用 GIT 版本控制 [目錄](#目錄)
 ```
 a. 依照git 網頁上 的進行
 b. 記得先加入 .gitignore 避免將所有的檔案上傳
