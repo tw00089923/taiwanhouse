@@ -5,7 +5,7 @@
 2. 編寫 flask 網頁
 3. 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 版本控制
 ## Package
-* [Flask](http://flask.pocoo.org) WebFramework
+* [Flask](http://flask.pocoo.org) : WebFramework
 * [Jinja2](http://jinja.pocoo.org/docs/dev/templates)
 * [Flask-resrful](https://flask-restful.readthedocs.io/en/latest/)
 * [Flask-sqlachemy ](http://flask-sqlalchemy.pocoo.org/2.3/)
