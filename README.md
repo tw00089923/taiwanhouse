@@ -9,7 +9,7 @@ CI & CD : jinken
 Cluster : kubernete 
 ```
 ## 目錄
-1. [系統環境 與 Package 安裝](#real-cool-heading)
+1. [系統環境 與 Package 安裝](#1)
 2. 編寫 flask 網頁
 3. 啟用 [GIT](#real-cool-heading)("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 版本控制
 ## Package
@@ -22,8 +22,7 @@ Cluster : kubernete
 * [WTForms](https://wtforms.readthedocs.io/en/stable/)
 * [pytest](https://docs.pytest.org/en/latest/index.html)
 * [flask-login](https://flask-login.readthedocs.io/en/latest/)
-#1
-1. 環境 安裝
+# 1 .系統環境 與 Package 安裝
 <pre>
 # 路徑 與 環境
 > $ mkdir house && cd mkdir
@@ -60,8 +59,7 @@ if __name__ == "__main__":
 <img src="static/readme/HelloWorld.png" width="500">
 
 </pre>
-## Real-cool-heading
-3. [啟用 GIT 版本控制](#Real-cool-heading)
+## Real-cool-heading 3. [啟用 GIT 版本控制](#Real-cool-heading)
 ```
 a. 依照git 網頁上 的進行
 b. 記得先加入 .gitignore 避免將所有的檔案上傳
