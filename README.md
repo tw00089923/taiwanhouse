@@ -1,7 +1,15 @@
 ### Taiwan 房價實價登錄 網站
 [Source]("http://lvr.land.moi.gov.tw/homePage.action")
+
+後端語言: Python 3.7
+手機框架 : Flutter
+網頁框架: Flask 
+資料庫 : MySQL 
+CI & CD : jinken 
+Cluster : kubernete 
+
 ## 目錄
-1. 系統環境 與 Package 安裝
+1. [系統環境 與 Package 安裝](#1))
 2. 編寫 flask 網頁
 3. 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 版本控制
 ## Package
@@ -14,7 +22,7 @@
 * [WTForms](https://wtforms.readthedocs.io/en/stable/)
 * [pytest](https://docs.pytest.org/en/latest/index.html)
 * [flask-login](https://flask-login.readthedocs.io/en/latest/)
-
+#1
 1. 環境 安裝
 <pre>
 # 路徑 與 環境
@@ -56,16 +64,25 @@ if __name__ == "__main__":
 </pre>
 
 3. 啟用 GIT 版本控制
-#### a. 依照git 網頁上 的進行
-#### b. 記得先加入 .gitignore 避免將所有的檔案上傳
+```
+a. 依照git 網頁上 的進行
+b. 記得先加入 .gitignore 避免將所有的檔案上傳
+```
 <pre>
 > $ git init
 > $ git add README.md
 > $ git commit -m "Flask init"
 > $ git remote add origin https://github.com/tw00089923/taiwanhouseprice.git
 > $ git push -u origin master
-
 </pre>
+
+4. Flask 初始化所有插件
+'''
+# 方便管理 Development,Production 
+> $ touch config.py 
+# 修改 app.py 初始化插件
+
+'''
 
 
 
