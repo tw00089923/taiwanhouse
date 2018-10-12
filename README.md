@@ -9,7 +9,7 @@ CI & CD : jinken
 Cluster : kubernete 
 ```
 ### 目錄
-1. [系統環境 與 Package](#1系統環境與Package安裝)
+1. [系統環境 與 Package](#1-系統環境與package安裝)
 2. 編寫 flask 網頁
 3. 啟用 [GIT]("https://zlargon.gitbooks.io/git-tutorial/content/startup/create_project.html") 
 ### Package
@@ -22,7 +22,7 @@ Cluster : kubernete
 * [WTForms](https://wtforms.readthedocs.io/en/stable/)
 * [pytest](https://docs.pytest.org/en/latest/index.html)
 * [flask-login](https://flask-login.readthedocs.io/en/latest/)
-### 1.系統環境與Package安裝
+### 1. 系統環境與Package安裝
 <pre>
 # 路徑 與 環境
 > $ mkdir house && cd mkdir
