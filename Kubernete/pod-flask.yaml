@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-flask
+  labels:
+    app: webserver
+spec:
+  containers:
+  - name: pod-flask
+    image: howard/flask
+    ports:
+    - containerPort: 3000
