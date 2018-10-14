@@ -9,4 +9,4 @@ spec:
   - name: pod-flask
     image: howard/flask
     ports:
-    - containerPort: 3000
+    - containerPort: 8080
