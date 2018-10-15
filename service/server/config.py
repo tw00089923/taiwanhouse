@@ -1,4 +1,10 @@
 import os 
+# getenv
+MYSQL_USER = os.getenv("MYSQL_USER")
+MYSQL_USER_PASSWORD = os.getenv("MYSQL_USER_PASSWORD")
+
+DATABASE_URL = "mysql+pymysql://{}:{}@localhost:30300".format(MYSQL_USER,MYSQL_USER_PASSWORD)
+
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 

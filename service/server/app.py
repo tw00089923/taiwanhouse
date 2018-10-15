@@ -1,7 +1,6 @@
 # Loading Flask
 from flask import Flask
 # Loading Config
-from config import app_config
 # Loading Flask-rest
 from flask_restful import Api
 # Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions. http://flask.pocoo.org/
@@ -13,7 +12,13 @@ from flask_login import LoginManager
 # flask_jwt  https://pythonhosted.org/Flask-JWT/
 from flask_jwt import JWT, jwt_required, current_identity
 # Flask(__name__ , template_folder='application/templates') 可頁面修改參數
-app = Flask(__name__, template_folder='application/templates',static_url_path="/static")
+from config import app_config
+
+import os 
+
+os.enviro("")
+
+app = Flask(__name__, template_folder='templates',static_url_path="/client")
 
 api = Api(app)
 # config from dictionary
@@ -34,9 +39,11 @@ from security import authenticate, identity
 jwt = JWT(app, authenticate, identity)
 
 ### import router ..... 
-import application.router
+#import application.router
+from application import router
+from application import api
 
-import application.api
+#import application.api
 
 
 if __name__ == "__main__":
